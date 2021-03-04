@@ -1,8 +1,7 @@
 {- 
 
 0.a) Dado que "Secuencial" recibe dos parametros no puede ser una instancia de Monad. Basandonos en 
-que "a" puede ser de cualquier tipo, estamos en presencia de varios Monads "Secuencial". Al proveer
-"s", debe
+que "a" puede ser de cualquier tipo, tenemos un Monad Secuencial para cada tipo. 
 
 0.b)
   - return :: a              -> Secuencial s a
